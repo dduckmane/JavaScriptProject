@@ -87,11 +87,24 @@
 #intro .intro-first-card .overlay a:hover {
   color: #fafa6f;
 }
+#intro .intro-second{
+  position: relative;
+}
+#intro .intro-second .game{
+  margin-left: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0,-50%);
+  opacity: 0;
+}
 
 
+#intro .intro-second .game1{
+  opacity: 1;
+}
 
 .gamePlay{
-
 }
 
 .gamePlay .header{
