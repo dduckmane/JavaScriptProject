@@ -1,14 +1,21 @@
 const X_CLASS = 'x'
 const CIRCLE_CLASS = 'circle'
 const WINNING_COMBINATIONS = [
-  [0, 1, 2],
-  [3, 4, 5],
-  [6, 7, 8],
-  [0, 3, 6],
-  [1, 4, 7],
-  [2, 5, 8],
-  [0, 4, 8],
-  [2, 4, 6]
+  
+[0,  1,  2,  3,  4],
+[5,  6,  7,  8 , 9],
+[10, 11, 12, 13, 14],
+[15, 16, 17, 18, 19],
+[20, 21, 22, 23, 24],
+[0,  5,  10,  15,  20], 
+[1,  6,  11,  16,  21],
+[2,  7,  12,  17,  22],
+[3,  8,  13,  18,  23],
+[4,  9,  14,  19,  24],
+[0,  6,  12,  18,  24],
+[4, 8,  12, 16,  20]
+
+
 ]
 const cellElements = document.querySelectorAll('[data-cell]')
 const board = document.getElementById('board')
@@ -51,7 +58,7 @@ function endGame(draw) {
   if (draw) {
     winningMessageTextElement.innerText = '무승부 입니다!'
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O " : "X "} 우승입니다!`
+    winningMessageTextElement.innerText = `${circleTurn ? "🍊" : "🍇"} 우승입니다!`
   }
   winningMessageElement.classList.add('show')
 }
