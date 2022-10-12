@@ -69,9 +69,6 @@ cursor: not-allowed;
   background-image: url("grapes.png");
 
 }
-
-
-
 .cell.circle::before {
   z-index: 1000;
   background-image: url("orange.png");
@@ -90,7 +87,7 @@ background-color: lightgrey;
 .board.x .cell:not(.x):not(.circle):hover::after {
 content: '';
 position: absolute;
-width: calc(var(--mark-size) * .99);
+width: calc(var(--mark-size) * .98);
 height: var(--mark-size);
 }
 
