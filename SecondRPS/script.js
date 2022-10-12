@@ -2,20 +2,22 @@ const selectionButtons = document.querySelectorAll('[data-selection]')
 const finalColumn = document.querySelector('[data-final-column]')
 const computerScoreSpan = document.querySelector('[data-computer-score]')
 const yourScoreSpan = document.querySelector('[data-your-score]')
+const win = document.querySelector('[win]')
+
 const SELECTIONS = [
   {
     name: 'rock',
-    emoji: '✊',
+    emoji: '🗿',
     beats: 'scissors'
   },
   {
     name: 'paper',
-    emoji: '✋',
+    emoji: '📄',
     beats: 'rock'
   },
   {
     name: 'scissors',
-    emoji: '✌',
+    emoji: '✂',
     beats: 'paper'
   }
 ]
@@ -40,8 +42,10 @@ function makeSelection(selection) {
   if (computerWinner) incrementScore(computerScoreSpan)
 }
 
+
 function incrementScore(scoreSpan) {
   scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
+  
 }
 
 function addSelectionResult(selection, winner) {
