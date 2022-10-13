@@ -1,0 +1,88 @@
+.game-wrap {
+    width: 600px;
+    height: 500px;
+    border: 3px solid #3b5999;
+    margin: 100px auto 200px auto;
+    box-sizing: border-box;
+}
+
+.game-header {
+    width: 100%;
+    margin: 00px auto 0;
+    padding: 10px 0;
+    background: #3b5999;
+    color: #fff;
+    box-sizing: border-box;
+
+    text-align: center;
+    font-size: 24px;
+}
+
+.word-display {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 80px;
+    color: #3b5999;
+    text-align: center;
+}
+
+.word-input-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.word-input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+}
+
+.game-info-wrap {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.game-info-wrap .game-info {
+    width: 360px;
+    margin: 0 auto;
+}
+
+
+.game-info-wrap .game-info div {
+    float: left;
+    width: 170px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.time, .score {
+    font-size: 30px;
+}
+
+.game-info-wrap .btn-wrap {
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    height: 30px;
+    background: #3b5999;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+}
+
+.loading {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/*footer*/
+#footer .divider {
+    border-bottom: 1px dashed gray;
+}
