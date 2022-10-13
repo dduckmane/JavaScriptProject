@@ -2,9 +2,8 @@
     width: 600px;
     height: 500px;
     border: 3px solid #3b5999;
-    margin: 100px auto 0;
+    margin: 100px auto 200px auto;
     box-sizing: border-box;
-
 }
 
 .game-header {
@@ -81,4 +80,9 @@
 .loading {
     background: #ccc;
     cursor: not-allowed;
+}
+
+/*footer*/
+#footer .divider {
+    border-bottom: 1px dashed gray;
 }
