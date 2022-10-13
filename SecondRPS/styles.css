@@ -3,6 +3,7 @@ body {
 }
 
 .selections {
+    margin: 7%;
     display: flex;
     justify-content: center;
 }
@@ -22,7 +23,7 @@ body {
 }
 
 .results {
-    margin-top: 1rem;
+    margin: 3%;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 30fr);
@@ -56,3 +57,4 @@ body {
     position: absolute;
     bottom: 0;
 }
+

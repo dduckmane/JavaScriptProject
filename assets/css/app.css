@@ -5,7 +5,7 @@
 
 /* Top Section */
 #top {
-  background-image: url('../images/bg-top.jpg');
+  background-image: url('../images/main.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,17 +47,17 @@
 
 #intro .col-6:nth-of-type(2) .intro-first-card {
   /*여기에 맞는 사진을 넣어주세요*/
-  background-image: url('../images/bg2.jpg');
+  background-image: url('../images/typing.PNG');
 }
 
 #intro .col-6:nth-of-type(3) .intro-first-card {
   /*여기에 맞는 사진을 넣어주세요*/
-  background-image: url('../images/bg3.jpg');
+  background-image: url('../images/bingo.PNG');
 }
 
 #intro .col-6:nth-of-type(4) .intro-first-card {
   /*여기에 맞는 사진을 넣어주세요*/
-  background-image: url('../images/bg4.jpg');
+  background-image: url('../images/RPS.PNG');
 }
 
 #intro .intro-first-card .overlay {
