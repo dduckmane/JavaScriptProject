@@ -1,3 +1,27 @@
+/* reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.en {
+    font-family: 'Exo 2', sans-serif;
+}
+button, input {
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+/* common */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -98,7 +122,7 @@ body {
 
 .cell.x::after,
 .board.x .cell:not(.x):not(.circle):hover::after {
-    transform: rotate(deg);
+    transform: rotate(1deg);
 }
 
 .cell.circle::before,
@@ -158,7 +182,50 @@ body {
     display: flex;
 }
 
-/*footer*/
-#footer .divider {
-    border-bottom: 1px dashed gray;
+/* footer style */
+#footer {
+    border-top: 1px solid #999;
+    padding: 30px 0;
+}
+#footer a{
+    color: black;
+    text-decoration: none;
+}
+#footer .inner {
+    width: 84%;
+    margin: 0 auto;
+}
+#footer .inner .ft-logo {
+    float: left;
+    width: 14%;
+    font-size: 2rem;
+    text-shadow: 0px 3px 4px #3a3c4e;
+}
+#footer .inner .address {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#footer .inner .address li:first-child {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#footer .inner .address li:last-child {
+    color: #999;
+}
+
+#footer .inner .list {
+    float: right;
+    margin-top: 18px;
+}
+#footer .inner .list li {
+    float: left;
+    margin-left: 80px;
+}
+#footer .inner .list li:last-child {
+    font-weight: 700;
+}
+#footer .inner .list li a:hover {
+    color: #ff8342;
+    text-decoration: underline;
 }
