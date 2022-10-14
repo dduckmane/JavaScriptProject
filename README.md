@@ -29,7 +29,7 @@ Introduce our Projects!!
 ## 6.1 참고
 
   - game1: 
-  - game2: 
-  - game3: 
+  - game2: Web Dev Simplified 자료 참고 --> Css & 자바스크립트 변경
+  - game3: Web Dev Simplified 자료 참고 --> HTML & Css 변경
 
 
